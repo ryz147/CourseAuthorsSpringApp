@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.jnit.app.model.Author;
 import com.jnit.app.service.AuthorService;
 
-@CrossOrigin("http://localhost:4200")
+//@CrossOrigin("http://localhost:4200")
 @RestController
 @RequestMapping("author")
 public class AuthorController {

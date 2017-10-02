@@ -18,7 +18,7 @@ package com.jnit.app.controller;
 	import com.jnit.app.model.Course;
 	import com.jnit.app.service.CourseService;
 
-	@CrossOrigin("http://localhost:4200")
+	//@CrossOrigin("http://localhost:4200")
 	@RestController
 	@RequestMapping("course")
 	public class CourseController {
